@@ -1,41 +1,66 @@
-var answer=' '
-var statement=('Answer yes or no');
-var answer=prompt('Did I serve in the Army?');
-
-if ( answer == 'yes') {
-   statement='Good Job!'
-} else {
-  (answer == 'no')
- statement=('You can/'t tell'!')
-alert(statement)
+'use strict';
+var answerOne = prompt('Did I retire from the Army?')
+  answerOne = answerOne.toLowerCase();
+    if  (answerOne === 'yes' || answerOne === 'y') {
+      alert('Hell fire boy!');
+        console.log ('Hell fire boy!');
+}
+else {
+	   alert ('Too Bad, your not very bright!');
+	     console.log('Too Bad, your not very bright!')
+}
+var answerDuece = prompt('Did I live overseas ?')
+  answerDuece = answerDuece.toLowerCase();
+    if  (answerDuece === 'yes' || answerDuece === 'y') {
+      alert('Hell fire boy!');
+      console.log ('Hell fire boy!');
+}
+else {
+	alert ('Too Bad, your not very bright!');
+	console.log('Too Bad, your not very bright!')
 }
 
-  var answer=prompt('Did live all over europe?')
-if ( answer == 'yes')
+var answerTre = prompt('Did go to several colleges?')
+answerTre = answerTre.toLowerCase();
+if  (answerTre === 'yes' || answerTre === 'y') {
+  alert('Yay, Hell fire boy!');
+console.log ('Yay, Hell fire boy!');
+}
+else {
+	alert ('Too Bad, you suck!');
+	console.log('Too Bad, you suck!')
+}
 
-   statement='Hell fire boy!'
+var answerFour = prompt('Do I have kids?')
+answerFour = answerFour.toLowerCase();
+if  (answerFour === 'yes' || answerFour === 'y') {
+  alert('Nice, Hell fire boy!');
+console.log ('Yay, Hell fire boy!');
+}
+else {
+	alert ('Too Bad, I wish!');
+	console.log('Too Bad, I wish!')
+}
 
-if(answer == 'no')
- {statement='Your nuts!'}
-alert(statement)
+var answerFour = prompt('Do I work currently?')
+answerFour = answerFour.toLowerCase();
+if  (answerFour === 'yes' || answerFour === 'y') {
+  alert('Its boring, Hell fire boy!');
+console.log ('Yay, Hell fire boy!');
+}
+else {
+	alert ('hmmm, I wish!');
+	console.log('hmmm, I wish!')
 
-var answer=prompt('Did I attend alot of schooling?')
-if ( answer == 'yes')
-statement='That/'s correct!'
-if(answer == 'no')
-{statement='Not bright are you!'}
-alert(statement)
+}
+var answerFive = prompt('Do I live in Portland?')
+answerFive = answerFive.toLowerCase();
+if  (answerFive === 'no' || answerFive === 'n') {
+  alert('Your, crazy!');
+console.log ('Your, crazy!');
+}
+else {
+	alert ('Good answer!');
+	console.log('Good answer!')
 
-var answer=prompt('Did I deploy overseas?')
-if (answer == 'yes')
-statement='That/'s correct!'
-if(answer == 'no')
-statement='Man, you have problems!'
-alert(statement)
-
-var answer=prompt('Do I live in Portland?')
-if ( answer == 'yes')
-{statement='Well hell, no!'}
-if(answer == 'no')
-statement='I reside in Olympia!'
-alert(statement);
+}
